@@ -1,0 +1,76 @@
+/* reset */
+body,h1,h2,h3,h4,h5,p,dl,dd,ul,ol,form,input,textarea,th,td,select { margin:0; padding:0; }
+em { font-style:normal; }
+li {  }
+a { text-decoration:none; }
+a:hover{text-decoration:underline;}
+img { border:none; vertical-align:top; }
+table { border-collapse:collapse; }
+input,textarea { outline:none; }
+textarea { resize:none; overflow:auto; }
+body { font-size:12px; font-family:"微软雅黑"; }
+/* end reset */
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+body{background-color: #f5f5f5;}
+#left{width: 290px;height: 980px;left: 8px;top:10px;background-color: #fbfbfb;border-radius: 5px;position: relative;padding-top: 25px;float: left;display:block;}
+.left1{width: 271px;height: 224px;margin-left:10px;background-color: #fbfbfb;  border-bottom: 1px dashed #c5c5c5;}
+.left1 li{list-style:none;}
+.left1 p{margin-top: 10px;}
+.left1 a{color: #c63f45}
+.left1 a:hover{color: #7a7777}
+
+.left2{width: 271px;height: 204px;margin-left:10px;background-color: #fbfbfb;  border-bottom: 1px dashed #c5c5c5;}
+.left2 p{margin-top: 25px;}
+.left21{width: 269px;height: 141px;margin-top: 15px;background-color: #f1f1f1;}
+.left2 a{margin-left: 183px;color: #c63f45;font-size: 14px;}
+.left2 a:hover{color: #7a7777}
+
+.left3{width: 269px;height: 385px;margin-left:10px;background-color: #fbfbfb;  border-bottom: 1px dashed #c5c5c5;}
+.left3 p{margin-top: 33px;font-size: 16px;}
+.left3 li{margin-left: 22px;}
+.left3 a{color: #c63f45;font-size: 14px;}
+.left3 a:hover{color: #7a7777}
+
+.left4{width: 271px;height: 80px;margin-left:10px;background-color: #fbfbfb;  }
+.left4 p{margin-top: 25px;font-size:14px; }
+.left4 a{color: #c63f45;font-size: 14px;}
+.left4 a:hover{color: #7a7777}
+#content{width: 340px;height: 86px;margin-left: 360px;padding-top: 20px;float: left;}
+
+#search{width: 550px;height: 65px;margin-left: 240px;margin-top: 20px;float: left;background-color: #ffffff;box-shadow: 10px 10px 5px #eaeaea;}
+#search1{width: 28px;height: 28px;margin-top: 25px;float: left;margin-left: 10px;display: none;}
+#divs{}
+/*#wen{padding-top: 400px;padding-left: 750px;}
+#wen p{color: #eaeaea;}
+#wen a:hover{cursor:pointer;}*/
+
+.search2 input{width: 400px;height: 65px;border: none;font-size: 18px;padding-left: 30px;float: left;}
+/* WebKit browsers */
+::-webkit-input-placeholder {
+	color: #e6e6e6;
+}
+/* Mozilla Firefox 4 to 18 */
+:-moz-placeholder {
+	color: #e6e6e6;
+	opacity: 1;
+}
+/* Mozilla Firefox 19+ */
+::-moz-placeholder {
+	color: #e6e6e6;
+	opacity: 1;
+}
+/* Internet Explorer 10+ */
+:-ms-input-placeholder {
+	color: #e6e6e6;
+}
+#mydiv{}
